@@ -1,0 +1,79 @@
+
+body{
+font-family: "Courier New", Courier, monospace;
+background-image: url(image/bkg.jpg);
+background-size: 150%;
+background-repeat: no-repeat;
+color: white;
+}
+
+
+#page{
+	max-width: 940;
+	min-width: 720;
+}
+img{
+	width: 306px;
+	height: 143px;
+	margin-top: -5px;
+}
+ul{
+	text-align: center;
+	font-size: 150%;
+	width: 700px;
+	margin: 0px auto 0px auto;
+	border: 20px;
+}
+a.nav{
+	text-decoration: none;
+	color: white;
+}
+li{
+	display: inline;
+	margin:5px ;
+	padding: 10px;
+
+}
+a.nav:hover{
+	color: orange;
+	text-decoration: overline;
+}
+h1{
+	font-size: 300%;
+	margin-left: 30px;
+}
+p{
+	margin-left: 30px;
+	margin-top: 40px;
+	
+}
+.buttons{
+	 font-size:20px ;
+	 background-color: #e8d1c5;
+	 width: 160px;
+	 padding: 20px;
+	 text-align: center;
+	 text-decoration: none;
+	 color: ;
+	 border-radius: 100px;
+	 cursor: pointer;
+	 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	 -webkit-transition-duration: 0.3s;
+	 transition-duration: 0.3s;
+     -webkit-transition-property: box-shadow, transform;
+     transition-property: box-shadow, transform;
+
+}
+a.buttons{
+	text-decoration: none;
+	 color: black;
+}
+a.buttons:hover{
+	color: white;
+}
+.buttons:hover,.buttons:focus .buttons:active {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+
+}
